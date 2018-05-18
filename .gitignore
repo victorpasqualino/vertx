@@ -11,4 +11,5 @@ vertx-rest/.project
 vertx-commons/.project
 vertx-commons/.classpath
 vertx-rest/.classpath
+.vertx/*
 
