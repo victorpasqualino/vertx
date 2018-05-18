@@ -3,3 +3,12 @@
 /.project
 /org.eclipse.jdt.core.prefs
 /org.eclipse.m2e.core.prefs
+/vertx-rest/target*
+/vertx-commons/target*
+vertx-rest/.settings
+vertx-commons/.settings
+vertx-rest/.project
+vertx-commons/.project
+vertx-commons/.classpath
+vertx-rest/.classpath
+

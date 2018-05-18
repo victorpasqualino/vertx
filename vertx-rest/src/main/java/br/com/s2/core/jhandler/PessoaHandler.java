@@ -1,7 +1,5 @@
 package br.com.s2.core.jhandler;
 
-import java.awt.geom.Rectangle2D;
-
 import br.com.s2.core.service.ClientHttp;
 import io.reactivex.Single;
 import io.vertx.core.buffer.Buffer;
@@ -9,7 +7,6 @@ import io.vertx.core.http.HttpHeaders;
 import io.vertx.core.json.JsonObject;
 import io.vertx.ext.web.RoutingContext;
 import io.vertx.ext.web.client.HttpResponse;
-import io.vertx.ext.web.client.WebClient;
 
 public class PessoaHandler {
 

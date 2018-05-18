@@ -5,12 +5,9 @@ import br.com.s2.core.verticle.VerticleConsumer;
 import br.com.s2.core.verticle.VerticleDispatcher;
 import io.vertx.core.Vertx;
 import io.vertx.core.VertxOptions;
-import io.vertx.core.logging.Logger;
-import io.vertx.core.logging.LoggerFactory;
 
 public class Starter {
 	
-	private static final Logger logger = LoggerFactory.getLogger(Starter.class);
 
 	public static void main(String[] args) {
 		Vertx vertx = Vertx.vertx(new VertxOptions().setWorkerPoolSize(20).setEventLoopPoolSize(1));
